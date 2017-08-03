@@ -1,0 +1,47 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+
+<!--
+`<ing-test>` is Description
+
+@element ing-test
+-->
+<dom-module id="ing-test">
+    <template>
+        <style>
+            :host {
+                display: block
+            }
+        </style>
+
+        
+
+    </template>
+
+    <script>
+        class ingTest extends Polymer.Element {
+
+            static get is() { return 'ing-test'; }
+
+            static get properties() {
+                return {
+                    
+                };
+            }
+
+            constructor() {
+                super();
+            }
+
+            ready() {
+                super.ready();
+
+                Polymer.RenderStatus.afterNextRender(this, function() {
+                    
+                });
+            }
+
+        }
+
+        window.customElements.define(ingTest.is, ingTest);
+    </script>
+</dom-module>

@@ -1,0 +1,25 @@
+{
+  "name": "int-test",
+  "version" : "0.0.1",
+  "homepage": "https://github.com/Thiru-n/ing-test",
+  "description": "int-test",
+  "main": "https://github.com/Thiru-n/ing-test",
+  "keywords": [
+    "{{site.project_title}}",
+    "webcomponents"
+  ],
+  "authors": [
+    "Thirumalesh"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^2.0.2"
+  }
+}
